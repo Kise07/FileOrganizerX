@@ -1,4 +1,5 @@
 let helpFunc = require('./commands/help');
+let treeFunc = require('./commands/tree');
 
 let inputArr = process.argv.slice(2);
 let command = inputArr[0];
