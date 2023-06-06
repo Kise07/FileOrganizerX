@@ -57,7 +57,7 @@ function organize(srcPath) {
 function getFolderName(ext) {
 	for (let key in types) {
 		for (let i = 0; i < types[key].length; i++) {
-			if (types[key][i] == ext) {
+			if (types[key][i].toLowerCase() == ext.toLowerCase()) {
 				return key;
 			}
 		}
