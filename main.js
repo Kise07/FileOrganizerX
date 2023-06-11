@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 let helpFunc = require('./commands/help');
 let treeFunc = require('./commands/tree');
 let organizeFunc = require('./commands/organize');
