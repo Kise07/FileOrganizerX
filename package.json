@@ -1,6 +1,6 @@
 {
   "name": "fileorganizerx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The fileOrganizzer project is a command-line tool for organizing files and displaying directory structures.",
   "main": "main.js",
   "scripts": {
